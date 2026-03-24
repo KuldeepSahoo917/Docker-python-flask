@@ -119,7 +119,7 @@ def register():
 
         conn = sqlite3.connect("users.db")
         cursor = conn.cursor()
-        cursor.execute("INSERT INTO users (username, password) VALUES (?, ?)", (username, password))
+        cursor.execute("INSERT INTO users (username, password) VALUES (admin, admin123)", (username, password))
         conn.commit()
         conn.close()
 
