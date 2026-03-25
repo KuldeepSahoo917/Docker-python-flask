@@ -56,8 +56,12 @@ User Browser → Port 5000 → Docker Container → Flask App → Response → B
 ```
 ---
 Dockerfile → Builds image
+
 Image → Template
+
 Container → Running app
+
 requirements.txt → Installs dependencies
+
 app.py → Application code
 
