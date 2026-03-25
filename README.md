@@ -30,9 +30,12 @@ docker build -t pythonapp .
 
 ### 3. Run the app
 ```
-docker run -d -p 5000:5000 -v $(pwd):/app --name flask-container pythonapp
+docker run -itd -p 5000:5000  pythonapp
 ```
-
+### 4. Check running containers
+```
+docker ps -a
+```
 ---
 
 ## Access the Application
