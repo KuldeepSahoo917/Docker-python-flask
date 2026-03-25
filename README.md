@@ -49,4 +49,17 @@ http://<server-ip>:5000
 
 ---
 
+---
+If someone asks how Docker Flask works, say this:
 
+Flow:
+```
+User Browser → Port 5000 → Docker Container → Flask App → Response → Browser
+```
+Dockerfile → Builds image
+Image → Template
+Container → Running app
+requirements.txt → Installs dependencies
+app.py → Application code
+
+---
