@@ -23,6 +23,13 @@ git clone https://github.com/KuldeepSahoo917/Docker-python-flask.git
 cd Docker-python-flask
 ```
 
+### OPTION-1
+### 2. Run using Docker-Compose
+```
+docker-compose up -d
+```
+
+### OPTION-2
 ### 2. Build the app
 ```
 docker build -t pythonapp .
